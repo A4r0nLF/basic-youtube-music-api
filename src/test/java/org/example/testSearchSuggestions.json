@@ -1,0 +1,236 @@
+{
+  "responseContext": {
+    "visitorData": "Cgs4UExYWHhPbF9TcyjIh7GBBg%3D%3D",
+    "serviceTrackingParams": [
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB_REMIX"
+          },
+          {
+            "key": "cver",
+            "value": "0.1"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetMusicSearchSuggestions_rid",
+            "value": "0x77e2591f3401d874"
+          }
+        ]
+      },
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "e",
+            "value": "23996751,23891346,23723208,23884386,23997167,23882502,23804281,23991912,9406125,23976578,23891344,23858057,23972975,23996375,23944779,23969934,23996424,24000882,23735347,1714254,23994373,23748147,23971936,24002839,23987676,23991314,23968386,24001373,23857949,23839597,23934970,23998553,23974595,23946420,23744176,23918597"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "0.1"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB_REMIX"
+          }
+        ]
+      }
+    ]
+  },
+  "trackingParams": "CAAQi24iEwj6-MLqtu_uAhVNit4KHW_XBQc=",
+  "contents": [
+    {
+      "searchSuggestionsSectionRenderer": {
+        "contents": [
+          {
+            "searchSuggestionRenderer": {
+              "suggestion": {
+                "runs": [
+                  {
+                    "text": "samra",
+                    "bold": true
+                  }
+                ]
+              },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAcQpWEYASITCPr4wuq27-4CFU2K3godb9cFBw==",
+                "searchEndpoint": {
+                  "query": "samra"
+                }
+              },
+              "trackingParams": "CAcQpWEYASITCPr4wuq27-4CFU2K3godb9cFBw==",
+              "icon": {
+                "iconType": "SEARCH"
+              }
+            }
+          },
+          {
+            "searchSuggestionRenderer": {
+              "suggestion": {
+                "runs": [
+                  {
+                    "text": "samra",
+                    "bold": true
+                  },
+                  {
+                    "text": " lost"
+                  }
+                ]
+              },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAYQpWEYAiITCPr4wuq27-4CFU2K3godb9cFBw==",
+                "searchEndpoint": {
+                  "query": "samra lost"
+                }
+              },
+              "trackingParams": "CAYQpWEYAiITCPr4wuq27-4CFU2K3godb9cFBw==",
+              "icon": {
+                "iconType": "SEARCH"
+              }
+            }
+          },
+          {
+            "searchSuggestionRenderer": {
+              "suggestion": {
+                "runs": [
+                  {
+                    "text": "samra",
+                    "bold": true
+                  },
+                  {
+                    "text": " rohdiamant"
+                  }
+                ]
+              },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAUQpWEYAyITCPr4wuq27-4CFU2K3godb9cFBw==",
+                "searchEndpoint": {
+                  "query": "samra rohdiamant"
+                }
+              },
+              "trackingParams": "CAUQpWEYAyITCPr4wuq27-4CFU2K3godb9cFBw==",
+              "icon": {
+                "iconType": "SEARCH"
+              }
+            }
+          },
+          {
+            "searchSuggestionRenderer": {
+              "suggestion": {
+                "runs": [
+                  {
+                    "text": "samra",
+                    "bold": true
+                  },
+                  {
+                    "text": " baebae"
+                  }
+                ]
+              },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAQQpWEYBCITCPr4wuq27-4CFU2K3godb9cFBw==",
+                "searchEndpoint": {
+                  "query": "samra baebae"
+                }
+              },
+              "trackingParams": "CAQQpWEYBCITCPr4wuq27-4CFU2K3godb9cFBw==",
+              "icon": {
+                "iconType": "SEARCH"
+              }
+            }
+          },
+          {
+            "searchSuggestionRenderer": {
+              "suggestion": {
+                "runs": [
+                  {
+                    "text": "samra",
+                    "bold": true
+                  },
+                  {
+                    "text": " goldjunge"
+                  }
+                ]
+              },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAMQpWEYBSITCPr4wuq27-4CFU2K3godb9cFBw==",
+                "searchEndpoint": {
+                  "query": "samra goldjunge"
+                }
+              },
+              "trackingParams": "CAMQpWEYBSITCPr4wuq27-4CFU2K3godb9cFBw==",
+              "icon": {
+                "iconType": "SEARCH"
+              }
+            }
+          },
+          {
+            "searchSuggestionRenderer": {
+              "suggestion": {
+                "runs": [
+                  {
+                    "text": "samra",
+                    "bold": true
+                  },
+                  {
+                    "text": " cataleya"
+                  }
+                ]
+              },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAIQpWEYBiITCPr4wuq27-4CFU2K3godb9cFBw==",
+                "searchEndpoint": {
+                  "query": "samra cataleya"
+                }
+              },
+              "trackingParams": "CAIQpWEYBiITCPr4wuq27-4CFU2K3godb9cFBw==",
+              "icon": {
+                "iconType": "SEARCH"
+              }
+            }
+          },
+          {
+            "searchSuggestionRenderer": {
+              "suggestion": {
+                "runs": [
+                  {
+                    "text": "samra",
+                    "bold": true
+                  },
+                  {
+                    "text": " kennst du das"
+                  }
+                ]
+              },
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAEQpWEYByITCPr4wuq27-4CFU2K3godb9cFBw==",
+                "searchEndpoint": {
+                  "query": "samra kennst du das"
+                }
+              },
+              "trackingParams": "CAEQpWEYByITCPr4wuq27-4CFU2K3godb9cFBw==",
+              "icon": {
+                "iconType": "SEARCH"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
