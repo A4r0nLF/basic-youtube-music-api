@@ -21,12 +21,12 @@ public class OnlineSong {
         this.ytMusicPlyListID="";
     }
 
-    public OnlineSong( String _title, String _artistName, String _albumName, int _duration,
+    public OnlineSong( String title, String artistName, String albumName, int duration,
                      String imgUrl, String songUrl, String ytMusicID, String ytMusicPlyListID) {
-        this.title = _title;
-        this.artistName = _artistName;
-        this.albumName = _albumName;
-        this.duration = _duration;
+        this.title = title;
+        this.artistName = artistName;
+        this.albumName = albumName;
+        this.duration = duration;
         this.imgUrl = imgUrl;
         this.songUrl = songUrl;
         this.ytMusicID= ytMusicID;

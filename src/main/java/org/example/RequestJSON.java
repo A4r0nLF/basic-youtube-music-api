@@ -4,14 +4,14 @@ import okhttp3.*;
 
 import java.io.*;
 
-public class Dataloader {
+public class RequestJSON {
 
 
     public final String baseURL;
     public final String defaultKey;
 
 
-    public Dataloader() {
+    public RequestJSON() {
 
         this.baseURL = "https://music.youtube.com/youtubei/v1/";
         this.defaultKey = "?alt=json&key=AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30";

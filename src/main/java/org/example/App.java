@@ -1,8 +1,6 @@
 package org.example;
 
 
-import okhttp3.*;
-
 import java.io.*;
 import java.util.Scanner;
 
@@ -17,7 +15,7 @@ public class App {
     }
 
     public void tryout() {
-        Dataloader dataloader = new Dataloader();
+        RequestJSON dataloader = new RequestJSON();
         Parser parser = new Parser();
 
         //Get search Suggestions. Returns Arraylist of OnlineSong

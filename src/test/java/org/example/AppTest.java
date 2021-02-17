@@ -6,10 +6,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
  * Unit test for simple App.
@@ -17,13 +14,13 @@ import java.util.Scanner;
 public class AppTest {
     private App app;
     private Parser parser;
-    private Dataloader dataloader;
+    private RequestJSON dataloader;
 
     @Before
     public void setUp() {
         app = new App();
         parser = new Parser();
-        dataloader = new Dataloader();
+        dataloader = new RequestJSON();
     }
 
     /**
