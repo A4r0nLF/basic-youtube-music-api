@@ -1,2 +1,11 @@
 .idea
+*.iml
 *.class
+
+# mac specific
+.DS_Store
+.nosync
+
+# maven
+target/maven/status/*
+target/*
