@@ -2,6 +2,8 @@ package org.example;
 
 
 import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 
@@ -36,15 +38,15 @@ public class App {
     public static String readFile(String filename) {
         String data = "";
         try {
-            File myObj = new File("C:\\Users\\aarfri\\Documents\\YTMusicAPI\\src\\test\\java\\org\\example\\" + filename + ".json");
-            Scanner myReader = new Scanner(myObj);
+            File fileObj = new File(ClassLoader.getSystemClassLoader().getResource(filename).getFile());
+            //File myObj = new File("C:\\Users\\aarfri\\Documents\\YTMusicAPI\\src\\test\\java\\org\\example\\" + filename + ".json");
+            Scanner myReader = new Scanner(fileObj);
             while (myReader.hasNextLine()) {
                 data = data + (myReader.nextLine());
             }
             myReader.close();
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
+            System.out.println("Error while reading from file: " + e.getMessage());
         }
         return data;
     }

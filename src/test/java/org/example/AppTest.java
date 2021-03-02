@@ -28,7 +28,7 @@ public class AppTest {
      */
     @Test
     public void searchSuggestionsOffline() {
-        ArrayList<String> srchSugLst = parser.parseSearchSuggestions(App.readFile("testSearchSuggestions"));
+        ArrayList<String> srchSugLst = parser.parseSearchSuggestions(App.readFile("testSearchSuggestions.json"));
         assertEquals(srchSugLst.size(), 7);
         assertEquals("samra", srchSugLst.get(0));
         assertEquals("samra lost", srchSugLst.get(1));
@@ -42,7 +42,7 @@ public class AppTest {
 
     @Test
     public void searchResultsOffline() {
-        ArrayList<OnlineSong> srchResLst = parser.parseSearchResults(App.readFile("testSearchResults"));
+        ArrayList<OnlineSong> srchResLst = parser.parseSearchResults(App.readFile("testSearchResults.json"));
         assertEquals(srchResLst.size(), 3);
         assertEquals("OnlineSong{albumName='Kennst du das ?!', artistName='Samra', duration=0, " +
                         "title='Kennst du das ?!', imgUrl='https://lh3.googleusercontent.com/b4dgifzySJQ49-Z5UdsBX" +
@@ -67,7 +67,7 @@ public class AppTest {
 
     @Test
     public void moreSearchResultsOffline() {
-        ArrayList<OnlineSong> mreSrchResLst = parser.parseSearchResults(App.readFile("testMoreSearchResults"));
+        ArrayList<OnlineSong> mreSrchResLst = parser.parseSearchResults(App.readFile("testMoreSearchResults.json"));
         assertEquals(mreSrchResLst.size(), 20);
         assertEquals("Kennst du das ?!", mreSrchResLst.get(0).albumName);
         assertEquals("TOPIC42", mreSrchResLst.get(1).artistName);
@@ -81,7 +81,7 @@ public class AppTest {
 
     @Test
     public void getPlaylistOffline() {
-        ArrayList<OnlineSong> playlistContent = parser.parsePlaylist(App.readFile("testGetPlaylistFromID"));
+        ArrayList<OnlineSong> playlistContent = parser.parsePlaylist(App.readFile("testGetPlaylistFromID.json"));
         assertEquals(playlistContent.size(), 25);
         assertEquals("Goldjunge", playlistContent.get(0).albumName);
         assertEquals("Samra", playlistContent.get(1).artistName);
