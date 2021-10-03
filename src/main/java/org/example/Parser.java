@@ -49,14 +49,16 @@ public class Parser {
         return searchSuggestions;
     }
 
-    public ArrayList<OnlineSong> parseSearchResults(String json) {
+public ArrayList<OnlineSong> parseSearchResults(String json) {
         ArrayList<OnlineSong> searchResults = new ArrayList<>();
 
         Gson gson = new Gson();
         JsonObject jsonObject = gson.fromJson(json, JsonObject.class);
         JsonElement jsonElement = jsonObject.get("contents")
-                .getAsJsonObject().get("sectionListRenderer")
-                .getAsJsonObject().get("contents");
+        .getAsJsonObject().get("tabbedSearchResultsRenderer")
+        .getAsJsonObject().get("tabs").getAsJsonArray().get(0)
+                .getAsJsonObject().get("tabRenderer").getAsJsonObject().get("content")
+                .getAsJsonObject().get("sectionListRenderer").getAsJsonObject().get("contents");
         JsonArray jsonArray = jsonElement.getAsJsonArray();
         for (int i = 0; i < jsonArray.size(); i++) {
             try {
